@@ -14,7 +14,10 @@ Tested under python 2.6.1, but later 2.x versions should work fine.
 pip install urllib3
 pip install git+ssh://git@github.com/shazow/apiclient.git
 3. Update USER and PW constants below.
-4. Copy/paste/save this code into a file called "willpath_v1_api.py".
+4. Copy/paste/save this code into a file called "willpath_v1_api.py"
+(or you can clone this file/project into its own folder using:
+  git clone git://github.com/nat/willpath-python-api.git 
+ )
 5. In your own file you can then write code such as this:
 from willpath_v1_api import WillpathV1API
 api = WillpathV1API()
