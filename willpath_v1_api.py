@@ -43,6 +43,7 @@ class WillpathV1API(APIClient):
         r = self.connection_pool.urlopen(method.upper(), url, headers=headers)
         return self._handle_response(r)
 
+      
 
 if __name__ == '__main__':
     api = WillpathV1API()
